@@ -1,1 +1,17 @@
 /* your code */
+table {  
+  border-collapse: collapse;
+	width: 500px;
+  }
+#game{
+  border-radius: 25px;
+	text-align: center;
+}
+#game th, td {
+  border-bottom: 1px solid #ddd;
+}
+#game th{
+	background-color: #104676;
+	color: white;
+}
+#game tr:nth-child(even){background-color: #f2f2f2;}
